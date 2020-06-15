@@ -23,7 +23,7 @@ client.once('ready', async () => {
 client.on('message', (message) => {
   if (message.author.bot) return
   if (process.env.LOCAL && message.guild.name !== 'Lab Assistant Lab') return
-  if (!process.env.LOCAL && message.guild.name === 'Lab Assistant Lab') return
+  // if (!process.env.LOCAL && message.guild.name === 'Lab Assistant Lab') return
 
   let reply = ''
   const { content } = message
