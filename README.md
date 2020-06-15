@@ -1,4 +1,4 @@
-# pricer-discord-bot
+# walter-discord-bot
 
 ## Resources
 
