@@ -45,7 +45,7 @@ client.on('message', (message) => {
   const im = "I'm "
   if (content.includes(im)) {
     const rest = content.substr(content.indexOf(im) + im.length)
-    reply = `Hi ${rest}, I'm dad!`
+    reply = `Hi ${rest}, I'm dad.`
     message.channel.send(reply)
     return
   }
